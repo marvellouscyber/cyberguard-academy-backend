@@ -4,14 +4,16 @@ A security-focused backend practice project built while learning cybersecurity, 
 
 ## Overview
 
-This project demonstrates foundational backend security concepts including:
+## Example API Response
 
-- Express.js server configuration
-- HTTP security hardening with Helmet
-- API request logging with Morgan
-- Rate limiting against brute-force attacks
-- JSON request handling
-- Linux command-line workflows using Termux
+### GET /status
+
+```json
+{
+  "status": "secure",
+  "uptime": 1243,
+  "timestamp": "2026-05-25T12:00:00.000Z"
+}
 
 This project was developed primarily from an Android device using Termux due to lack of access to a personal laptop.
 
